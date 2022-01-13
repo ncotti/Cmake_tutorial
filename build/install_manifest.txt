@@ -1,0 +1,4 @@
+/home/ngc/Escritorio/Cmake_tuto/build/../install_dir/bin/tuto
+/home/ngc/Escritorio/Cmake_tuto/build/../install_dir/include/tutorial_config.h
+/home/ngc/Escritorio/Cmake_tuto/build/../install_dir/lib/libMathFunctions.a
+/home/ngc/Escritorio/Cmake_tuto/build/../install_dir/include/math.h

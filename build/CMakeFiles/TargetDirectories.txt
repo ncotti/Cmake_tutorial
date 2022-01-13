@@ -1,0 +1,14 @@
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/install/strip.dir
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/install/local.dir
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/install.dir
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/list_install_components.dir
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/rebuild_cache.dir
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/edit_cache.dir
+/home/ngc/Escritorio/Cmake_tuto/build/CMakeFiles/tuto.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/install/strip.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/install.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/list_install_components.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/rebuild_cache.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/edit_cache.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/install/local.dir
+/home/ngc/Escritorio/Cmake_tuto/build/Math/CMakeFiles/MathFunctions.dir
