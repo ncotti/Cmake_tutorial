@@ -1,7 +1,7 @@
 add_library(MathFunctions math.cpp)
 
 target_include_directories(MathFunctions
-          INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
+          PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include"
           )
 
 

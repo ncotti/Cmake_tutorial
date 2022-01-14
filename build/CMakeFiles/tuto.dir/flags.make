@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ngc/Escritorio/Cmake_tuto/build -I/home/ngc/Escritorio/Cmake_tuto/Math 
+CXX_INCLUDES = -I/home/ngc/Escritorio/Cmake_tuto/build -I/home/ngc/Escritorio/Cmake_tuto/Math/include 
 
