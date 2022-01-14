@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../Math/include/math.h
+iostream
+-
+
+/home/ngc/Escritorio/Cmake_tuto/Math/math.cpp
+math.h
+/home/ngc/Escritorio/Cmake_tuto/Math/math.h
+

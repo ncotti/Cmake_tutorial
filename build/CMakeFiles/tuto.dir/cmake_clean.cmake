@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "../test.txt"
   "CMakeFiles/tuto.dir/tutorial.cpp.o"
   "tuto"
   "tuto.pdb"
