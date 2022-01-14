@@ -24,7 +24,6 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 ```
 ## Funciones
-#
 ```
 add_executable (<target_name> <sources>...)
 ```
@@ -34,13 +33,13 @@ Crea un nuevo "target" ejecutable.
 ```
 add_library(<library_target_name> <sources>...)
 ```
-Crea un nuevo "target" no ejecutable. Una librería es solo un conjunto de objetos `*.o` sin linkear (su extensión, para librería estática es `*.a`).
+Crea un nuevo "target" no ejecutable. Una librería es solo un conjunto de objetos `*.o` sin linkear (la extensión para librería estática es `*.a`).
 
 #
 ```
-target_include_directories (<target_name> PUBLIC|PRIVATE|INTERFACE [<header_path1> <header_path2>])
+target_include_directories (<target_name> PUBLIC|PRIVATE|INTERFACE <header_paths> ...)
 ```
-Agrega el path hacia la carpeta donde se encuentran los header files, cosa de poder incluirlos en el código usando simplemente `#include "header.h"`, sin importar el path relativo.
+Agrega el path hacia la carpeta donde se encuentran los header files, de modo de poder incluirlos en el código usando simplemente `#include "header.h"`, sin importar el path relativo.
 
 PUBLIC|PRIVATE|INTERFACE establece el modo en que deben ser incluídos:
 
@@ -60,7 +59,7 @@ Linkea una librería creada con `add_library()` junto con el target en cuestión
 ```
 add_subdirectory(<path_to_CMakeLists.txt>)
 ```
-Dado un subdirectorio donde haya un archivo CMakeLists.txt, crea ese mismo subdirectorio dentro del build, donde ejecuta el CMakeLists.txt anidado. 
+Dado un subdirectorio donde haya un archivo CMakeLists.txt, crea ese mismo subdirectorio dentro del buildsystem, donde ejecuta el CMakeLists.txt anidado. 
 
 #
 ```
@@ -77,14 +76,12 @@ install(TARGETS|FILES|DIRECTORY <element> DESTINATION <directory_path>)
 ```
 
 
-
 ## Variables
 ```
-set(<VAR_NAME> <var value>)
+set(<VAR_NAME> <var_value>)
 ```
 Permite crear una nueva variable, accesible en el resto del CMakeLists.txt como `${VAR_NAME}`.
 
-#
 ```
 ${CMAKE_SOURCE_DIR}
 
