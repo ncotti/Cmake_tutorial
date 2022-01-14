@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/tuto.dir/tutorial.cpp.o  -o tuto  Math/libMathFunctions.a 

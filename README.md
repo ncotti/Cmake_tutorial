@@ -63,6 +63,10 @@ add_subdirectory(<path_to_CMakeLists.txt>)
 Dado un subdirectorio donde haya un archivo CMakeLists.txt, crea ese mismo subdirectorio dentro del build, donde ejecuta el CMakeLists.txt anidado. 
 
 #
+```
+add_custom_command(OUTPUT <output_file> WORKING_DIRECTORY <path> COMMAND <linux command> COMMENT <What to print in terminal> DEPENDS <file>)
+```
+Establece un comando de consola para generar cierto archivo <output_file>, del cual pueda depender otro target o librería. (Por ejemplo, agregarías "output_file" en `add_executable()`).
 
 ## Instalation
 
@@ -75,6 +79,12 @@ install(TARGETS|FILES|DIRECTORY <element> DESTINATION <directory_path>)
 
 
 ## Variables
+```
+set(<VAR_NAME> <var value>)
+```
+Permite crear una nueva variable, accesible en el resto del CMakeLists.txt como `${VAR_NAME}`.
+
+#
 ```
 ${CMAKE_SOURCE_DIR}
 
